@@ -14,4 +14,8 @@ public class Main{
         int num3 = sc.nextInt();
         int result = 0;
     }
+
+    public void adding(){
+        System.out.println("adding.....");
+    }
 }
