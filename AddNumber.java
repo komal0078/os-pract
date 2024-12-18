@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class AddNumber{
 
+
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number: ");
@@ -33,7 +35,11 @@ public class AddNumber{
             }
         }
 
-        System.out.println(result);
+        float average = (num1+num2+num3)/3;
+    
+
+        System.out.println("result:"+result);
+        System.out.println("average:"+average);
         sc.close();
     }
 }
