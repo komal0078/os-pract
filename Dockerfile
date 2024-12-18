@@ -1,5 +1,5 @@
 FROM openjdk
-WORKDIR usr/src/myapp
+WORKDIR .
 COPY . .
 RUN javac Main.java
 CMD ["java", "Main"]
