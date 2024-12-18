@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AddNumber{
+public class Main{
 
 
 
